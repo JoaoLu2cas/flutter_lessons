@@ -130,6 +130,22 @@ class MeuApp extends StatelessWidget {
                       ),
                     ],
                   ),
+                  const SizedBox(height: 15),
+
+                  const Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.location_on, color: Colors.white),
+                      SizedBox(width: 10),
+                      Text(
+                        'Anapolis, Goiás, Brasil',
+                        style: TextStyle(
+                          fontSize: 16,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
+                  ),
                 ],
               ),
             ),
